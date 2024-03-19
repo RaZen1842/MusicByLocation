@@ -14,6 +14,7 @@
 		85141FD82BA9EA0600CA54DC /* MusicByLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85141FD72BA9EA0600CA54DC /* MusicByLocationTests.swift */; };
 		85141FE22BA9EA0600CA54DC /* MusicByLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85141FE12BA9EA0600CA54DC /* MusicByLocationUITests.swift */; };
 		85141FE42BA9EA0600CA54DC /* MusicByLocationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85141FE32BA9EA0600CA54DC /* MusicByLocationUITestsLaunchTests.swift */; };
+		85141FF12BA9EC9400CA54DC /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85141FF02BA9EC9400CA54DC /* LocationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		85141FDD2BA9EA0600CA54DC /* MusicByLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicByLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85141FE12BA9EA0600CA54DC /* MusicByLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITests.swift; sourceTree = "<group>"; };
 		85141FE32BA9EA0600CA54DC /* MusicByLocationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85141FF02BA9EC9400CA54DC /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				85141FC82BA9EA0300CA54DC /* ContentView.swift */,
 				85141FCA2BA9EA0500CA54DC /* Assets.xcassets */,
 				85141FCC2BA9EA0500CA54DC /* Preview Content */,
+				85141FF02BA9EC9400CA54DC /* LocationHandler.swift */,
 			);
 			path = MusicByLocation;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85141FF12BA9EC9400CA54DC /* LocationHandler.swift in Sources */,
 				85141FC92BA9EA0300CA54DC /* ContentView.swift in Sources */,
 				85141FC72BA9EA0300CA54DC /* MusicByLocationApp.swift in Sources */,
 			);
